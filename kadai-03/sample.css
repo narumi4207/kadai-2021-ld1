@@ -1,0 +1,15 @@
+p{
+    color: green;
+    }
+
+    .important{
+        color: red;
+    }
+
+    #submit {
+        font-style: italic;
+    }
+
+    p:nth-child(3n+1) {
+        font-weight: bold;
+    }

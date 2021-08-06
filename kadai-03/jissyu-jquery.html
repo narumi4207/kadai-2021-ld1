@@ -1,0 +1,20 @@
+<!--index.html-->
+<html>
+    <body>
+        <ul id="students"></ul>
+        名前<input type="text" id="name">
+        得点<input type="text" id="score">
+        <button id="enter">入力</button>
+        <script src="https://cdn.jsdelivir.net.npm/jquery.min.js"></script>
+        <script>
+            $(#enter).click (()=>{
+                const name =$(#name).val()
+                const score=$(#score).val()
+
+                $("<li>")
+                    ･text (name + "さん"+score+"点")
+                    ･appendTo($(#students))
+        })
+        </script>
+    </body>
+</html>

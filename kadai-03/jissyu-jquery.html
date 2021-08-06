@@ -7,13 +7,13 @@
         <button id="enter">入力</button>
         <script src="https://cdn.jsdelivir.net.npm/jquery.min.js"></script>
         <script>
-            $(#enter).click (()=>{
-                const name =$(#name).val()
-                const score=$(#score).val()
+            $("#enter").click (()=>{
+                const name =$("#name").val()
+                const score=$("#score").val()
 
                 $("<li>")
-                    ･text (name + "さん"+score+"点")
-                    ･appedTo($(#students))
+                    text (name + "さん"+score+"点")
+                    appendTo($("#students"))
         })
         </script>
     </body>

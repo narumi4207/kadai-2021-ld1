@@ -1,0 +1,1 @@
+alert ('これは外部ファイルとして記述したJavascript')

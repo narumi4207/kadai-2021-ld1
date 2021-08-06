@@ -1,0 +1,3 @@
+hello,Vim!
+こんにちは。
+Bye!
